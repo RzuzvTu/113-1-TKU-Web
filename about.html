@@ -1,22 +1,43 @@
 <html>
     <!DOCTYPE html>
     <html lang="zh-tw">
+     
+    
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>自我介紹</title>
-        <img src="Me.jpg" alt="我" width="300" height="300">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+
     </head>
+    
     <body>
-        <h1>關於我</h1>
-        <h2>凌薹安</h2>
-        <p>淡江大學資訊管理學系大學三年級</p>
-        <div>
+        <title>自我介紹</title>
+
+        <div class="me">
+            <img src="Me.jpg" alt="我" width="150" height="150" >
+            
+            <h1>聯絡方式</h1>
+                <p class="line"><strong>電話: </strong>+886 XXXXXXXX</p>
+                <p class="line"><strong>Email: </strong>null@gmail.com</p>
+                <p class="line"><strong>LineID: </strong>null</p>
+        </div>
+        <header class="theme">
+
+                <h1>關於我</h1>
+                <h2>凌薹安</h2>
+                <h2>淡江大學資訊管理學系大學三年級</h2>
+                
+
+        </header>
+
+        <div class="skill">
         <h3>專長</h3>
         <ul>
             <li>玩遊戲</li>
-            <li>摸魚</li>
             <li>打程式</li>
+            <li>電腦硬體組裝</li>
         </ul>
         <h3>興趣</h3>
         <ul>
@@ -24,17 +45,25 @@
             <li>玩遊戲</li>
         </ul>
         </div>
-        <span>
-        <p>電子信箱:411631236@o365.tku.edu.tw</p>
 
-        <p>學歷:<a href="https://hackmd.io/@peiyucheng/rJtFyi62C">新北市立文化國民小學畢業</a></p>
-        <p>經歷:摩斯漢堡、淡江大學資訊長室、淡江大學網路管理組</p>
-        </span>
-        <form action="/submit" method="post">
-            <label for="name">你是誰:</label>
-            <input type="text" id="name" name="name">
-            <input type="submit" value="提交">
-        </form>
+        
+        <menu class="edu">
+            <h3>學歷</h3>
+            <p><a href="https://hackmd.io/@peiyucheng/rJtFyi62C">新北市立文化國民小學畢業</a></p>
+            <p><a href="https://hackmd.io/@peiyucheng/rJtFyi62C">新北市立正德國民中學畢業</a></p>
+            <p><a href="https://hackmd.io/@peiyucheng/rJtFyi62C">新北市立竹圍高級中學畢業</a></p>
+            
+        </menu>
+        <div class="exp">
+            <h3>經歷</h3>
+            <ul></ul>
+                <li>摩斯漢堡 2022-2023</li>
+                <li>淡江大學資訊長室 2022-至今</li>
+                <li>淡江大學網路管理組 2023-至今</li>
+            </ul>
+        </div>
+        <footer class="down">
+            <p></p>
+        </footer>
     </body>
     </html>
-</html>
