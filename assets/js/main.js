@@ -46,5 +46,7 @@
 			.scrolly({
 				speed: 1500
 			});
+	
+
 
 })(jQuery);

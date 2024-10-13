@@ -2583,7 +2583,6 @@ input, select, textarea {
 		}
 
 /* Icons */
-
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -4147,21 +4146,3 @@ input, select, textarea {
 		}
 
 	}
-	.vertical-list {
-		list-style-type: none;
-		padding: 0;
-	  }
-	  
-	  .vertical-list li {
-		margin-bottom: 10px; /* 調整間距 */
-	  }
-	  
-	  .vertical-list a {
-		display: flex;
-		align-items: center;
-		text-decoration: none;
-	  }
-	  
-	  .vertical-list .icon {
-		margin-right: 10px; /* 調整圖標與文字之間的間距 */
-	  }
