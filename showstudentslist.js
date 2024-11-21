@@ -24,8 +24,8 @@ const collectionName = 'studentslist';
         const departmentCounts = await collection.aggregate([
             {
                 $group: {
-                    _id: "$院系", // 根據 department 欄位分組
-                    count: { $sum: 1 } // 計算每個分組的數量
+                    _id: "$院系",
+                    count: { $sum: 1 } 
                 }
             }
         ]).toArray();
